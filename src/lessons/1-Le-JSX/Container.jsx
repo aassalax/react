@@ -1,7 +1,8 @@
 export default function Container(){
+    const txt = 'Hello world from container'
     return(
         <>
-            <p>Hello world from container</p>
+            <p>{txt}</p>
         </>
     )
 }
