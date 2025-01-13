@@ -1,4 +1,4 @@
-import Container from "./lessons/6-Hook-useRef/Container.jsx"
+import Container from "./lessons/7-Controlled-inputs/Container.jsx"
 
 function App() {
 
