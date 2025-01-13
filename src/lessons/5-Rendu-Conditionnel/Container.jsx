@@ -3,7 +3,7 @@ import "./Container.css"
 
 export default function Container(){
 
-    const isLogged = false
+    const isLogged = true
     let content
 
     if(isLogged) content = "Vous etes connecté"
@@ -31,6 +31,8 @@ export default function Container(){
                 </p>
                 {validation ? <p>TRUE</p> : <p>FALSE</p>}
             </form>
+
+            {validation && <button>Click me !</button>}
         </>
     )
 
