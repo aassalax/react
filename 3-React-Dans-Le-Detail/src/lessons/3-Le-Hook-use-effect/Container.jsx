@@ -10,7 +10,7 @@ export default function Container(){
 
     /*useEffect(() => {
         console.log("After first creation");
-    }, []);*/ //if empty deps pass, effect will be trigger each time
+    }, []);*/ //if empty deps pass, effect will be trigger when mount
 
     useEffect(() => {
         console.log("After first creation & after each maj of count");
