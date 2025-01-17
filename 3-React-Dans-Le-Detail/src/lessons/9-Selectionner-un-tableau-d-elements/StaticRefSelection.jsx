@@ -1,6 +1,6 @@
 import {useRef} from "react";
 
-export default function Container(){
+export default function StaticRefSelection(){
 
     const inputsRef = useRef([])
 
