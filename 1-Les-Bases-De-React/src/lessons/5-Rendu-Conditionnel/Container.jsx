@@ -38,7 +38,7 @@ export default function Container(){
 
 }
 /* METHODE 1
-export default function Container(){
+export default function Container.jsx(){
 
     const isLogged = false
 
