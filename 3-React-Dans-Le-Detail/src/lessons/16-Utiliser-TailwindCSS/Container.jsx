@@ -2,7 +2,7 @@ export default function Container(){
 
     return(
         <>
-            <h1>Utiliser TailwindCSS</h1>
+            <h1 className="bg-red-400">Utiliser TailwindCSS</h1>
         </>
     )
 }
