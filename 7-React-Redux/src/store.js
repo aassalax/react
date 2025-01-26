@@ -2,7 +2,7 @@ import counter from "./features/counter.js";
 import {configureStore} from "@reduxjs/toolkit";
 import fruits from "./features/fruits.js";
 import fruitsCart from "./features/fruitsCart.js";
-import mango from "./assets/mango.jpeg";
+import {logger} from "redux-logger/src";
 
 
 export const store = configureStore({
@@ -13,6 +13,7 @@ export const store = configureStore({
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(
         /*customMiddleware*/
+        logger
     )
 })
 
