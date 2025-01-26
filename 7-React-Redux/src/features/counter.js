@@ -9,10 +9,25 @@ export const counter = createSlice({
     initialState,
     reducers: {
         increment : (state, action) => {
+            console.log(action);
             state.value++
-        }
+        },
+        decrement : (state, action) => {
+            state.value--
+        },
+        multiply : (state, action) => {
+            if(action.payload === 0 ) state.value = 0
+            else state.value *= 10
+        },
+        divide : (state, action) => {
+            state.value /= 10
+        },
     }
 })
-console.log(counter);
-export const {increment} = counter.actions
+export const {
+    increment,
+    decrement,
+    multiply,
+    divide
+} = counter.actions
 export default counter.reducer
