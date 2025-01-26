@@ -1,5 +1,6 @@
-import Counter from "./pages/Counter/Counter.jsx";
-import Fruity from "./pages/Fruity/Fruity.jsx";
+import Counter from "./pages/Counter/Counter";
+import Fruity from "./pages/Fruity/Fruity";
+import Users from "./pages/Users/Users";
 
 function App() {
 
@@ -8,7 +9,10 @@ function App() {
         <div className="mx-auto max-w-3xl pt-10 pb-20">
             {/*1- Counter app*/}
             {/*<Counter/>*/}
-            <Fruity/>
+            {/*Fruity app*/}
+            {/*<Fruity/>*/}
+            {/*Users app*/}
+            <Users/>
         </div>
     </div>
   )
